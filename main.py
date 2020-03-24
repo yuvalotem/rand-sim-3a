@@ -9,6 +9,6 @@ def run(filter_field, value):
 
     filtered = manipulator.filter_by(filter_field, value)
     print(json.dumps(filtered, indent=2))
-    
 
-run("author", "a2")
+
+run("title", "t4")
