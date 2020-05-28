@@ -33,7 +33,7 @@ The `main.py` file has a Python script that executes a simple task:
 *Hint: Use the existing script to help you with building your own functions*
 
 # Extra
-- Add a new method to `CSV_Manager` that reads the CSV and stores it as a single object that maps each author to his/her articles, and each category to all the articles with that category. Ultimately, your data should look like this:
+- Add a new method to `CSV_Manager` that reads the CSV and stores it as a single object that maps each author to his/her articles, and each category to all the articles with that category. You can print the resulting data to make sure it's correct. Ultimately, your data should look like this:
    ```
    {
         author1_name: [{data on article1 by author1}, {data on article2 by author1}, {etc}],
